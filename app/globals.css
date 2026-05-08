@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0058be;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #2170e4;
+  --color-on-primary-container: #fefcff;
+  --color-secondary: #006591;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #39b8fd;
+  --color-on-secondary-container: #004666;
+  --color-tertiary: #6b38d4;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #8455ef;
+  --color-on-tertiary-container: #fffbff;
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+  --color-surface: #f8f9ff;
+  --color-on-surface: #0b1c30;
+  --color-on-surface-variant: #424754;
+  --color-outline: #727785;
+  --color-outline-variant: #c2c6d6;
+  --color-background: #f8f9ff;
+  --color-on-background: #0b1c30;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #eff4ff;
+  --color-surface-container: #e5eeff;
+  --color-surface-container-high: #dce9ff;
+  --color-surface-container-highest: #d3e4fe;
+  
+  --font-sans: var(--font-inter), sans-serif;
+  --font-serif: var(--font-source-serif), serif;
+  --font-mono: var(--font-jetbrains-mono), monospace;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+  font-family: var(--font-sans);
+}
